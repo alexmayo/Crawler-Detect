@@ -83,6 +83,7 @@ class Crawlers extends AbstractProvider
         'ApacheBench\/',
         'Apache-HttpAsyncClient\/',
         'Apache-HttpClient\/',
+        'APIs-Google'
         'AportWorm\/[0-9]',
         'AppBeat\/[0-9]',
         'AppEngine-Google',
@@ -848,6 +849,6 @@ class Crawlers extends AbstractProvider
         'zgrab',
         'ZnajdzFoto',
         'ZyBorg',
-        '[a-z0-9\-_]*((?<!cu)bot|crawler|archiver|transcoder|spider|uptime|validator|fetcher)',
+        '[a-z0-9\-_]*((?<!cu)bot|crawler|archiver|transcoder|spider|uptime|validator|fetcher|checker|pinger|crawl)',
     );
 }
